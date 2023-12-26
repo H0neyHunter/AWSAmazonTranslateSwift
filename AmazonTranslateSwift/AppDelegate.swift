@@ -21,9 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     func awsConfig() {
-        let accessKey = "AKIAIOSFODNN7EXAMPLE"
-        let secretKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
-        let region = AWSRegionType.USWest2
+        let accessKey = "accessKey"
+        let secretKey = "SecretKey"
+        let region = AWSRegionType.EUCentral1
         let credentialsProvider = AWSStaticCredentialsProvider(accessKey: accessKey, secretKey: secretKey)
         let defaultServiceConfiguration = AWSServiceConfiguration(region: region, credentialsProvider: credentialsProvider)
         AWSServiceManager.default().defaultServiceConfiguration = defaultServiceConfiguration

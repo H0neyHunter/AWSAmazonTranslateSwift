@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let translate = AWSTranslate.default()
 
-        let textToTranslate = "Merhaba, dünya!"
+        let textToTranslate = "Nasılsın"
         let sourceLanguage = "tr"
         let targetLanguage = "en"
 
